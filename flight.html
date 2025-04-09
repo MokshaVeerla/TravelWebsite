@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="index.html" class="logo">Travelia</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hotel.html">Hotels</a></li>
+        <li><a href="tour.html">Tours</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero hero-flights">
+    <h1>Book Your Dream Flight</h1>
+    <p>Affordable prices, premium airlines, and endless destinations. Start your journey today!</p>
+    <a href="#flight-search" class="cta-button">Search Flights</a>
+  </section>
+
+  <!-- Flight Search Form -->
+  <section id="flight-search" class="search-section">
+    <h2>Find Your Perfect Flight</h2>
+    <form class="flight-form">
+      <label for="from">From:</label>
+      <input type="text" id="from" placeholder="Enter your departure city" required>
+
+      <label for="to">To:</label>
+      <input type="text" id="to" placeholder="Enter your destination city" required>
+
+      <label for="departure-date">Departure Date:</label>
+      <input type="date" id="departure-date" required>
+
+      <label for="return-date">Return Date:</label>
+      <input type="date" id="return-date">
+
+      <label for="passengers">Passengers:</label>
+      <select id="passengers">
+        <option value="1">1 Passenger</option>
+        <option value="2">2 Passengers</option>
+        <option value="3">3 Passengers</option>
+        <option value="4+">4+ Passengers</option>
+      </select>
+
+      <button type="submit" class="search-btn">Search Flights</button>
+    </form>
+  </section>
+
+  <!-- Popular Destinations -->
+  <section class="popular-destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destinations-grid">
+      <div class="destination">
+        <img src="Paris1.jpg" alt="Paris">
+        <h3>Paris</h3>
+        <p>The city of love awaits you.</p>
+      </div>
+      <div class="destination">
+        <img src="newyork.jpg" alt="New York">
+        <h3>New York</h3>
+        <p>The city that never sleeps.</p>
+      </div>
+      <div class="destination">
+        <img src="tokyo.jpg" alt="Tokyo">
+        <h3>Tokyo</h3>
+        <p>A perfect blend of tradition and technology.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>What Our Travelers Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <p>"Amazing experience! Booking my flight was so easy."</p>
+        <h4>- Sarah L.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Found the best deal for my vacation. Highly recommend!"</p>
+        <h4>- John D.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"The service was incredible. I’ll definitely use it again."</p>
+        <h4>- Priya K.</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Travelia. All rights reserved.</p>
+    <ul class="social-links">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
+
